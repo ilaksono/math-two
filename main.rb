@@ -1,6 +1,6 @@
-require './Game'
-require './Express'
-require './Player'
+require './game'
+require './express'
+require './player'
 
 game = Game.new
 p1 = Player.new('Player 1')

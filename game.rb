@@ -1,4 +1,4 @@
-require './Express'
+require './express'
 
 class Game 
   attr_accessor :ans, :game_loop, :p1, :p2
@@ -25,7 +25,7 @@ class Game
   end
 
   def get_ans
-    puts " > "
+    print " > "
     gets.chomp.to_i
   end
 
